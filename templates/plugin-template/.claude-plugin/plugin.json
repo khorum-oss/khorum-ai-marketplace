@@ -1,0 +1,8 @@
+{
+  "name": "plugin-template",
+  "version": "0.1.0",
+  "description": "One sentence on what this plugin does.",
+  "author": { "name": "Khorum OSS" },
+  "license": "MIT",
+  "keywords": []
+}
