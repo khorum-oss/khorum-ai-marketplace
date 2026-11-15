@@ -1,0 +1,54 @@
+{
+  "name": "khorum-ai-marketplace",
+  "owner": {
+    "name": "Khorum OSS",
+    "url": "https://github.com/khorum-oss"
+  },
+  "metadata": {
+    "description": "Curated Claude Code plugins and skills from Khorum OSS, organized by functionality.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "argo-guide",
+      "description": "Create polished product demo videos from Playwright scripts with AI voiceover, overlays, and transitions using Argo.",
+      "category": "media-production",
+      "tags": [
+        "video",
+        "demo",
+        "playwright",
+        "voiceover",
+        "tts"
+      ],
+      "homepage": "https://github.com/khorum-oss/argo",
+      "repository": "https://github.com/khorum-oss/argo",
+      "license": "MIT",
+      "source": {
+        "source": "github",
+        "repo": "khorum-oss/argo"
+      },
+      "strict": false,
+      "skills": [
+        "./skills/argo-guide"
+      ]
+    },
+    {
+      "name": "foreman-vision",
+      "description": "Live pixel-art office view of your Claude Code sessions: each session a floor, each subagent a worker at a desk.",
+      "category": "observability",
+      "tags": [
+        "visualization",
+        "subagents",
+        "hooks",
+        "dashboard"
+      ],
+      "homepage": "https://github.com/khorum-oss/foreman-vision-pub",
+      "repository": "https://github.com/khorum-oss/foreman-vision-pub",
+      "license": "MIT",
+      "source": {
+        "source": "github",
+        "repo": "khorum-oss/foreman-vision-pub"
+      }
+    }
+  ]
+}
